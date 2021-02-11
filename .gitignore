@@ -1,3 +1,12 @@
+db.sqlite
+.env
+.env.development
+.env.testing
+/Public
+/Resources
+./feather
+docker/datadir
+ssh
 
 # Created by https://www.toptal.com/developers/gitignore/api/vapor,swift,swiftpm,swiftpackagemanager,macos,xcode,visualstudiocode,linux
 # Edit at https://www.toptal.com/developers/gitignore?templates=vapor,swift,swiftpm,swiftpackagemanager,macos,xcode,visualstudiocode,linux
