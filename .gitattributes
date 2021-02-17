@@ -6,3 +6,4 @@ catalogs/sanitarios.pdf filter=lfs diff=lfs merge=lfs -text
 catalogs/sols.pdf filter=lfs diff=lfs merge=lfs -text
 catalogs/the-cube-factory.pdf filter=lfs diff=lfs merge=lfs -text
 catalogs/valento.pdf filter=lfs diff=lfs merge=lfs -text
+catalogs/plantable-seeds.pdf filter=lfs diff=lfs merge=lfs -text
