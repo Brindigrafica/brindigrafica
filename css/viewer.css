@@ -289,8 +289,8 @@
   overflow: visible;
   border: 9px solid transparent;
   background-clip: content-box;
-  -o-border-image: url(images/shadow.png) 9 9 repeat;
-     border-image: url(images/shadow.png) 9 9 repeat;
+  -o-border-image: url(../images/shadow.png) 9 9 repeat;
+     border-image: url(../images/shadow.png) 9 9 repeat;
   background-color: rgba(255, 255, 255, 1);
 }
 
@@ -367,7 +367,7 @@
   top: 0;
   right: 0;
   bottom: 0;
-  background: url("images/loading-icon.gif") center no-repeat;
+  background: url("../images/loading-icon.gif") center no-repeat;
 }
 
 .pdfPresentationMode .pdfViewer {
@@ -445,41 +445,41 @@
   --overlay-button-bg-color: rgba(12, 12, 13, 0.1);
   --overlay-button-hover-color: rgba(12, 12, 13, 0.3);
 
-  --loading-icon: url(images/loading.svg);
-  --treeitem-expanded-icon: url(images/treeitem-expanded.svg);
-  --treeitem-collapsed-icon: url(images/treeitem-collapsed.svg);
-  --toolbarButton-menuArrow-icon: url(images/toolbarButton-menuArrow.svg);
-  --toolbarButton-sidebarToggle-icon: url(images/toolbarButton-sidebarToggle.svg);
-  --toolbarButton-secondaryToolbarToggle-icon: url(images/toolbarButton-secondaryToolbarToggle.svg);
-  --toolbarButton-pageUp-icon: url(images/toolbarButton-pageUp.svg);
-  --toolbarButton-pageDown-icon: url(images/toolbarButton-pageDown.svg);
-  --toolbarButton-zoomOut-icon: url(images/toolbarButton-zoomOut.svg);
-  --toolbarButton-zoomIn-icon: url(images/toolbarButton-zoomIn.svg);
-  --toolbarButton-presentationMode-icon: url(images/toolbarButton-presentationMode.svg);
-  --toolbarButton-print-icon: url(images/toolbarButton-print.svg);
-  --toolbarButton-openFile-icon: url(images/toolbarButton-openFile.svg);
-  --toolbarButton-download-icon: url(images/toolbarButton-download.svg);
-  --toolbarButton-bookmark-icon: url(images/toolbarButton-bookmark.svg);
-  --toolbarButton-viewThumbnail-icon: url(images/toolbarButton-viewThumbnail.svg);
-  --toolbarButton-viewOutline-icon: url(images/toolbarButton-viewOutline.svg);
-  --toolbarButton-viewAttachments-icon: url(images/toolbarButton-viewAttachments.svg);
-  --toolbarButton-viewLayers-icon: url(images/toolbarButton-viewLayers.svg);
-  --toolbarButton-search-icon: url(images/toolbarButton-search.svg);
-  --findbarButton-previous-icon: url(images/findbarButton-previous.svg);
-  --findbarButton-next-icon: url(images/findbarButton-next.svg);
-  --secondaryToolbarButton-firstPage-icon: url(images/secondaryToolbarButton-firstPage.svg);
-  --secondaryToolbarButton-lastPage-icon: url(images/secondaryToolbarButton-lastPage.svg);
-  --secondaryToolbarButton-rotateCcw-icon: url(images/secondaryToolbarButton-rotateCcw.svg);
-  --secondaryToolbarButton-rotateCw-icon: url(images/secondaryToolbarButton-rotateCw.svg);
-  --secondaryToolbarButton-selectTool-icon: url(images/secondaryToolbarButton-selectTool.svg);
-  --secondaryToolbarButton-handTool-icon: url(images/secondaryToolbarButton-handTool.svg);
-  --secondaryToolbarButton-scrollVertical-icon: url(images/secondaryToolbarButton-scrollVertical.svg);
-  --secondaryToolbarButton-scrollHorizontal-icon: url(images/secondaryToolbarButton-scrollHorizontal.svg);
-  --secondaryToolbarButton-scrollWrapped-icon: url(images/secondaryToolbarButton-scrollWrapped.svg);
-  --secondaryToolbarButton-spreadNone-icon: url(images/secondaryToolbarButton-spreadNone.svg);
-  --secondaryToolbarButton-spreadOdd-icon: url(images/secondaryToolbarButton-spreadOdd.svg);
-  --secondaryToolbarButton-spreadEven-icon: url(images/secondaryToolbarButton-spreadEven.svg);
-  --secondaryToolbarButton-documentProperties-icon: url(images/secondaryToolbarButton-documentProperties.svg);
+  --loading-icon: url(../images/loading.svg);
+  --treeitem-expanded-icon: url(../images/treeitem-expanded.svg);
+  --treeitem-collapsed-icon: url(../images/treeitem-collapsed.svg);
+  --toolbarButton-menuArrow-icon: url(../images/toolbarButton-menuArrow.svg);
+  --toolbarButton-sidebarToggle-icon: url(../images/toolbarButton-sidebarToggle.svg);
+  --toolbarButton-secondaryToolbarToggle-icon: url(../images/toolbarButton-secondaryToolbarToggle.svg);
+  --toolbarButton-pageUp-icon: url(../images/toolbarButton-pageUp.svg);
+  --toolbarButton-pageDown-icon: url(../images/toolbarButton-pageDown.svg);
+  --toolbarButton-zoomOut-icon: url(../images/toolbarButton-zoomOut.svg);
+  --toolbarButton-zoomIn-icon: url(../images/toolbarButton-zoomIn.svg);
+  --toolbarButton-presentationMode-icon: url(../images/toolbarButton-presentationMode.svg);
+  --toolbarButton-print-icon: url(../images/toolbarButton-print.svg);
+  --toolbarButton-openFile-icon: url(../images/toolbarButton-openFile.svg);
+  --toolbarButton-download-icon: url(../images/toolbarButton-download.svg);
+  --toolbarButton-bookmark-icon: url(../images/toolbarButton-bookmark.svg);
+  --toolbarButton-viewThumbnail-icon: url(../images/toolbarButton-viewThumbnail.svg);
+  --toolbarButton-viewOutline-icon: url(../images/toolbarButton-viewOutline.svg);
+  --toolbarButton-viewAttachments-icon: url(../images/toolbarButton-viewAttachments.svg);
+  --toolbarButton-viewLayers-icon: url(../images/toolbarButton-viewLayers.svg);
+  --toolbarButton-search-icon: url(../images/toolbarButton-search.svg);
+  --findbarButton-previous-icon: url(../images/findbarButton-previous.svg);
+  --findbarButton-next-icon: url(../images/findbarButton-next.svg);
+  --secondaryToolbarButton-firstPage-icon: url(../images/secondaryToolbarButton-firstPage.svg);
+  --secondaryToolbarButton-lastPage-icon: url(../images/secondaryToolbarButton-lastPage.svg);
+  --secondaryToolbarButton-rotateCcw-icon: url(../images/secondaryToolbarButton-rotateCcw.svg);
+  --secondaryToolbarButton-rotateCw-icon: url(../images/secondaryToolbarButton-rotateCw.svg);
+  --secondaryToolbarButton-selectTool-icon: url(../images/secondaryToolbarButton-selectTool.svg);
+  --secondaryToolbarButton-handTool-icon: url(../images/secondaryToolbarButton-handTool.svg);
+  --secondaryToolbarButton-scrollVertical-icon: url(../images/secondaryToolbarButton-scrollVertical.svg);
+  --secondaryToolbarButton-scrollHorizontal-icon: url(../images/secondaryToolbarButton-scrollHorizontal.svg);
+  --secondaryToolbarButton-scrollWrapped-icon: url(../images/secondaryToolbarButton-scrollWrapped.svg);
+  --secondaryToolbarButton-spreadNone-icon: url(../images/secondaryToolbarButton-spreadNone.svg);
+  --secondaryToolbarButton-spreadOdd-icon: url(../images/secondaryToolbarButton-spreadOdd.svg);
+  --secondaryToolbarButton-spreadEven-icon: url(../images/secondaryToolbarButton-spreadEven.svg);
+  --secondaryToolbarButton-documentProperties-icon: url(../images/secondaryToolbarButton-documentProperties.svg);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -516,41 +516,41 @@
     --overlay-button-bg-color: rgba(92, 92, 97, 1);
     --overlay-button-hover-color: rgba(115, 115, 115, 1);
 
-    --loading-icon: url(images/loading-dark.svg);
-    --treeitem-expanded-icon: url(images/treeitem-expanded-dark.svg);
-    --treeitem-collapsed-icon: url(images/treeitem-collapsed-dark.svg);
-    --toolbarButton-menuArrow-icon: url(images/toolbarButton-menuArrow-dark.svg);
-    --toolbarButton-sidebarToggle-icon: url(images/toolbarButton-sidebarToggle-dark.svg);
-    --toolbarButton-secondaryToolbarToggle-icon: url(images/toolbarButton-secondaryToolbarToggle-dark.svg);
-    --toolbarButton-pageUp-icon: url(images/toolbarButton-pageUp-dark.svg);
-    --toolbarButton-pageDown-icon: url(images/toolbarButton-pageDown-dark.svg);
-    --toolbarButton-zoomOut-icon: url(images/toolbarButton-zoomOut-dark.svg);
-    --toolbarButton-zoomIn-icon: url(images/toolbarButton-zoomIn-dark.svg);
-    --toolbarButton-presentationMode-icon: url(images/toolbarButton-presentationMode-dark.svg);
-    --toolbarButton-print-icon: url(images/toolbarButton-print-dark.svg);
-    --toolbarButton-openFile-icon: url(images/toolbarButton-openFile-dark.svg);
-    --toolbarButton-download-icon: url(images/toolbarButton-download-dark.svg);
-    --toolbarButton-bookmark-icon: url(images/toolbarButton-bookmark-dark.svg);
-    --toolbarButton-viewThumbnail-icon: url(images/toolbarButton-viewThumbnail-dark.svg);
-    --toolbarButton-viewOutline-icon: url(images/toolbarButton-viewOutline-dark.svg);
-    --toolbarButton-viewAttachments-icon: url(images/toolbarButton-viewAttachments-dark.svg);
-    --toolbarButton-viewLayers-icon: url(images/toolbarButton-viewLayers-dark.svg);
-    --toolbarButton-search-icon: url(images/toolbarButton-search-dark.svg);
-    --findbarButton-previous-icon: url(images/findbarButton-previous-dark.svg);
-    --findbarButton-next-icon: url(images/findbarButton-next-dark.svg);
-    --secondaryToolbarButton-firstPage-icon: url(images/secondaryToolbarButton-firstPage-dark.svg);
-    --secondaryToolbarButton-lastPage-icon: url(images/secondaryToolbarButton-lastPage-dark.svg);
-    --secondaryToolbarButton-rotateCcw-icon: url(images/secondaryToolbarButton-rotateCcw-dark.svg);
-    --secondaryToolbarButton-rotateCw-icon: url(images/secondaryToolbarButton-rotateCw-dark.svg);
-    --secondaryToolbarButton-selectTool-icon: url(images/secondaryToolbarButton-selectTool-dark.svg);
-    --secondaryToolbarButton-handTool-icon: url(images/secondaryToolbarButton-handTool-dark.svg);
-    --secondaryToolbarButton-scrollVertical-icon: url(images/secondaryToolbarButton-scrollVertical-dark.svg);
-    --secondaryToolbarButton-scrollHorizontal-icon: url(images/secondaryToolbarButton-scrollHorizontal-dark.svg);
-    --secondaryToolbarButton-scrollWrapped-icon: url(images/secondaryToolbarButton-scrollWrapped-dark.svg);
-    --secondaryToolbarButton-spreadNone-icon: url(images/secondaryToolbarButton-spreadNone-dark.svg);
-    --secondaryToolbarButton-spreadOdd-icon: url(images/secondaryToolbarButton-spreadOdd-dark.svg);
-    --secondaryToolbarButton-spreadEven-icon: url(images/secondaryToolbarButton-spreadEven-dark.svg);
-    --secondaryToolbarButton-documentProperties-icon: url(images/secondaryToolbarButton-documentProperties-dark.svg);
+    --loading-icon: url(../images/loading-dark.svg);
+    --treeitem-expanded-icon: url(../images/treeitem-expanded-dark.svg);
+    --treeitem-collapsed-icon: url(../images/treeitem-collapsed-dark.svg);
+    --toolbarButton-menuArrow-icon: url(../images/toolbarButton-menuArrow-dark.svg);
+    --toolbarButton-sidebarToggle-icon: url(../images/toolbarButton-sidebarToggle-dark.svg);
+    --toolbarButton-secondaryToolbarToggle-icon: url(../images/toolbarButton-secondaryToolbarToggle-dark.svg);
+    --toolbarButton-pageUp-icon: url(../images/toolbarButton-pageUp-dark.svg);
+    --toolbarButton-pageDown-icon: url(../images/toolbarButton-pageDown-dark.svg);
+    --toolbarButton-zoomOut-icon: url(../images/toolbarButton-zoomOut-dark.svg);
+    --toolbarButton-zoomIn-icon: url(../images/toolbarButton-zoomIn-dark.svg);
+    --toolbarButton-presentationMode-icon: url(../images/toolbarButton-presentationMode-dark.svg);
+    --toolbarButton-print-icon: url(../images/toolbarButton-print-dark.svg);
+    --toolbarButton-openFile-icon: url(../images/toolbarButton-openFile-dark.svg);
+    --toolbarButton-download-icon: url(../images/toolbarButton-download-dark.svg);
+    --toolbarButton-bookmark-icon: url(../images/toolbarButton-bookmark-dark.svg);
+    --toolbarButton-viewThumbnail-icon: url(../images/toolbarButton-viewThumbnail-dark.svg);
+    --toolbarButton-viewOutline-icon: url(../images/toolbarButton-viewOutline-dark.svg);
+    --toolbarButton-viewAttachments-icon: url(../images/toolbarButton-viewAttachments-dark.svg);
+    --toolbarButton-viewLayers-icon: url(../images/toolbarButton-viewLayers-dark.svg);
+    --toolbarButton-search-icon: url(../images/toolbarButton-search-dark.svg);
+    --findbarButton-previous-icon: url(../images/findbarButton-previous-dark.svg);
+    --findbarButton-next-icon: url(../images/findbarButton-next-dark.svg);
+    --secondaryToolbarButton-firstPage-icon: url(../images/secondaryToolbarButton-firstPage-dark.svg);
+    --secondaryToolbarButton-lastPage-icon: url(../images/secondaryToolbarButton-lastPage-dark.svg);
+    --secondaryToolbarButton-rotateCcw-icon: url(../images/secondaryToolbarButton-rotateCcw-dark.svg);
+    --secondaryToolbarButton-rotateCw-icon: url(../images/secondaryToolbarButton-rotateCw-dark.svg);
+    --secondaryToolbarButton-selectTool-icon: url(../images/secondaryToolbarButton-selectTool-dark.svg);
+    --secondaryToolbarButton-handTool-icon: url(../images/secondaryToolbarButton-handTool-dark.svg);
+    --secondaryToolbarButton-scrollVertical-icon: url(../images/secondaryToolbarButton-scrollVertical-dark.svg);
+    --secondaryToolbarButton-scrollHorizontal-icon: url(../images/secondaryToolbarButton-scrollHorizontal-dark.svg);
+    --secondaryToolbarButton-scrollWrapped-icon: url(../images/secondaryToolbarButton-scrollWrapped-dark.svg);
+    --secondaryToolbarButton-spreadNone-icon: url(../images/secondaryToolbarButton-spreadNone-dark.svg);
+    --secondaryToolbarButton-spreadOdd-icon: url(../images/secondaryToolbarButton-spreadOdd-dark.svg);
+    --secondaryToolbarButton-spreadEven-icon: url(../images/secondaryToolbarButton-spreadEven-dark.svg);
+    --secondaryToolbarButton-documentProperties-icon: url(../images/secondaryToolbarButton-documentProperties-dark.svg);
   }
 }
 
@@ -1685,7 +1685,7 @@ html[dir="rtl"] #findInput {
   font-style: normal;
 }
 #findInput[data-status="pending"] {
-  background-image: url(images/loading.svg);
+  background-image: url(../images/loading.svg);
   background-image: var(--loading-icon);
   background-repeat: no-repeat;
   background-position: 98%;
@@ -1693,7 +1693,7 @@ html[dir="rtl"] #findInput {
 @media (prefers-color-scheme: dark) {
 
   #findInput[data-status="pending"] {
-  background-image: url(images/loading-dark.svg);
+  background-image: url(../images/loading-dark.svg);
   background-image: var(--loading-icon);
   }
 }
@@ -2341,7 +2341,7 @@ html[dir="rtl"] #toolbarViewerLeft > .toolbarButton:first-child {
   position: absolute;
   display: inline-block;
   top: 6px;
-  content: url(images/toolbarButton-menuArrow.svg);
+  content: url(../images/toolbarButton-menuArrow.svg);
   content: var(--toolbarButton-menuArrow-icon);
   pointer-events: none;
   max-width: 16px;
@@ -2349,7 +2349,7 @@ html[dir="rtl"] #toolbarViewerLeft > .toolbarButton:first-child {
 @media (prefers-color-scheme: dark) {
 
   .dropdownToolbarButton::after {
-  content: url(images/toolbarButton-menuArrow-dark.svg);
+  content: url(../images/toolbarButton-menuArrow-dark.svg);
   content: var(--toolbarButton-menuArrow-icon);
   }
 }
@@ -2490,14 +2490,14 @@ html[dir="rtl"] .secondaryToolbarButton::before {
 }
 
 .toolbarButton#sidebarToggle::before {
-  content: url(images/toolbarButton-sidebarToggle.svg);
+  content: url(../images/toolbarButton-sidebarToggle.svg);
   content: var(--toolbarButton-sidebarToggle-icon);
 }
 
 @media (prefers-color-scheme: dark) {
 
   .toolbarButton#sidebarToggle::before {
-  content: url(images/toolbarButton-sidebarToggle-dark.svg);
+  content: url(../images/toolbarButton-sidebarToggle-dark.svg);
   content: var(--toolbarButton-sidebarToggle-icon);
   }
 }
@@ -2506,14 +2506,14 @@ html[dir="rtl"] .toolbarButton#sidebarToggle::before {
 }
 
 .toolbarButton#secondaryToolbarToggle::before {
-  content: url(images/toolbarButton-secondaryToolbarToggle.svg);
+  content: url(../images/toolbarButton-secondaryToolbarToggle.svg);
   content: var(--toolbarButton-secondaryToolbarToggle-icon);
 }
 
 @media (prefers-color-scheme: dark) {
 
   .toolbarButton#secondaryToolbarToggle::before {
-  content: url(images/toolbarButton-secondaryToolbarToggle-dark.svg);
+  content: url(../images/toolbarButton-secondaryToolbarToggle-dark.svg);
   content: var(--toolbarButton-secondaryToolbarToggle-icon);
   }
 }
@@ -2522,14 +2522,14 @@ html[dir="rtl"] .toolbarButton#secondaryToolbarToggle::before {
 }
 
 .toolbarButton.findPrevious::before {
-  content: url(images/findbarButton-previous.svg);
+  content: url(../images/findbarButton-previous.svg);
   content: var(--findbarButton-previous-icon);
 }
 
 @media (prefers-color-scheme: dark) {
 
   .toolbarButton.findPrevious::before {
-  content: url(images/findbarButton-previous-dark.svg);
+  content: url(../images/findbarButton-previous-dark.svg);
   content: var(--findbarButton-previous-icon);
   }
 }
@@ -2538,14 +2538,14 @@ html[dir="rtl"] .toolbarButton.findPrevious::before {
 }
 
 .toolbarButton.findNext::before {
-  content: url(images/findbarButton-next.svg);
+  content: url(../images/findbarButton-next.svg);
   content: var(--findbarButton-next-icon);
 }
 
 @media (prefers-color-scheme: dark) {
 
   .toolbarButton.findNext::before {
-  content: url(images/findbarButton-next-dark.svg);
+  content: url(../images/findbarButton-next-dark.svg);
   content: var(--findbarButton-next-icon);
   }
 }
@@ -2554,14 +2554,14 @@ html[dir="rtl"] .toolbarButton.findNext::before {
 }
 
 .toolbarButton.pageUp::before {
-  content: url(images/toolbarButton-pageUp.svg);
+  content: url(../images/toolbarButton-pageUp.svg);
   content: var(--toolbarButton-pageUp-icon);
 }
 
 @media (prefers-color-scheme: dark) {
 
   .toolbarButton.pageUp::before {
-  content: url(images/toolbarButton-pageUp-dark.svg);
+  content: url(../images/toolbarButton-pageUp-dark.svg);
   content: var(--toolbarButton-pageUp-icon);
   }
 }
@@ -2570,14 +2570,14 @@ html[dir="rtl"] .toolbarButton.pageUp::before {
 }
 
 .toolbarButton.pageDown::before {
-  content: url(images/toolbarButton-pageDown.svg);
+  content: url(../images/toolbarButton-pageDown.svg);
   content: var(--toolbarButton-pageDown-icon);
 }
 
 @media (prefers-color-scheme: dark) {
 
   .toolbarButton.pageDown::before {
-  content: url(images/toolbarButton-pageDown-dark.svg);
+  content: url(../images/toolbarButton-pageDown-dark.svg);
   content: var(--toolbarButton-pageDown-icon);
   }
 }
@@ -2586,131 +2586,131 @@ html[dir="rtl"] .toolbarButton.pageDown::before {
 }
 
 .toolbarButton.zoomOut::before {
-  content: url(images/toolbarButton-zoomOut.svg);
+  content: url(../images/toolbarButton-zoomOut.svg);
   content: var(--toolbarButton-zoomOut-icon);
 }
 
 @media (prefers-color-scheme: dark) {
 
   .toolbarButton.zoomOut::before {
-  content: url(images/toolbarButton-zoomOut-dark.svg);
+  content: url(../images/toolbarButton-zoomOut-dark.svg);
   content: var(--toolbarButton-zoomOut-icon);
   }
 }
 
 .toolbarButton.zoomIn::before {
-  content: url(images/toolbarButton-zoomIn.svg);
+  content: url(../images/toolbarButton-zoomIn.svg);
   content: var(--toolbarButton-zoomIn-icon);
 }
 
 @media (prefers-color-scheme: dark) {
 
   .toolbarButton.zoomIn::before {
-  content: url(images/toolbarButton-zoomIn-dark.svg);
+  content: url(../images/toolbarButton-zoomIn-dark.svg);
   content: var(--toolbarButton-zoomIn-icon);
   }
 }
 
 .toolbarButton.presentationMode::before {
-  content: url(images/toolbarButton-presentationMode.svg);
+  content: url(../images/toolbarButton-presentationMode.svg);
   content: var(--toolbarButton-presentationMode-icon);
 }
 
 @media (prefers-color-scheme: dark) {
 
   .toolbarButton.presentationMode::before {
-  content: url(images/toolbarButton-presentationMode-dark.svg);
+  content: url(../images/toolbarButton-presentationMode-dark.svg);
   content: var(--toolbarButton-presentationMode-icon);
   }
 }
 
 .secondaryToolbarButton.presentationMode::before {
-  content: url(images/toolbarButton-presentationMode.svg);
+  content: url(../images/toolbarButton-presentationMode.svg);
   content: var(--toolbarButton-presentationMode-icon);
 }
 
 @media (prefers-color-scheme: dark) {
 
   .secondaryToolbarButton.presentationMode::before {
-  content: url(images/toolbarButton-presentationMode-dark.svg);
+  content: url(../images/toolbarButton-presentationMode-dark.svg);
   content: var(--toolbarButton-presentationMode-icon);
   }
 }
 
 .toolbarButton.print::before {
-  content: url(images/toolbarButton-print.svg);
+  content: url(../images/toolbarButton-print.svg);
   content: var(--toolbarButton-print-icon);
 }
 
 @media (prefers-color-scheme: dark) {
 
   .toolbarButton.print::before {
-  content: url(images/toolbarButton-print-dark.svg);
+  content: url(../images/toolbarButton-print-dark.svg);
   content: var(--toolbarButton-print-icon);
   }
 }
 
 .secondaryToolbarButton.print::before {
-  content: url(images/toolbarButton-print.svg);
+  content: url(../images/toolbarButton-print.svg);
   content: var(--toolbarButton-print-icon);
 }
 
 @media (prefers-color-scheme: dark) {
 
   .secondaryToolbarButton.print::before {
-  content: url(images/toolbarButton-print-dark.svg);
+  content: url(../images/toolbarButton-print-dark.svg);
   content: var(--toolbarButton-print-icon);
   }
 }
 
 .toolbarButton.openFile::before {
-  content: url(images/toolbarButton-openFile.svg);
+  content: url(../images/toolbarButton-openFile.svg);
   content: var(--toolbarButton-openFile-icon);
 }
 
 @media (prefers-color-scheme: dark) {
 
   .toolbarButton.openFile::before {
-  content: url(images/toolbarButton-openFile-dark.svg);
+  content: url(../images/toolbarButton-openFile-dark.svg);
   content: var(--toolbarButton-openFile-icon);
   }
 }
 
 .secondaryToolbarButton.openFile::before {
-  content: url(images/toolbarButton-openFile.svg);
+  content: url(../images/toolbarButton-openFile.svg);
   content: var(--toolbarButton-openFile-icon);
 }
 
 @media (prefers-color-scheme: dark) {
 
   .secondaryToolbarButton.openFile::before {
-  content: url(images/toolbarButton-openFile-dark.svg);
+  content: url(../images/toolbarButton-openFile-dark.svg);
   content: var(--toolbarButton-openFile-icon);
   }
 }
 
 .toolbarButton.download::before {
-  content: url(images/toolbarButton-download.svg);
+  content: url(../images/toolbarButton-download.svg);
   content: var(--toolbarButton-download-icon);
 }
 
 @media (prefers-color-scheme: dark) {
 
   .toolbarButton.download::before {
-  content: url(images/toolbarButton-download-dark.svg);
+  content: url(../images/toolbarButton-download-dark.svg);
   content: var(--toolbarButton-download-icon);
   }
 }
 
 .secondaryToolbarButton.download::before {
-  content: url(images/toolbarButton-download.svg);
+  content: url(../images/toolbarButton-download.svg);
   content: var(--toolbarButton-download-icon);
 }
 
 @media (prefers-color-scheme: dark) {
 
   .secondaryToolbarButton.download::before {
-  content: url(images/toolbarButton-download-dark.svg);
+  content: url(../images/toolbarButton-download-dark.svg);
   content: var(--toolbarButton-download-icon);
   }
 }
@@ -2726,53 +2726,53 @@ html[dir="rtl"] .toolbarButton.pageDown::before {
 }
 
 .toolbarButton.bookmark::before {
-  content: url(images/toolbarButton-bookmark.svg);
+  content: url(../images/toolbarButton-bookmark.svg);
   content: var(--toolbarButton-bookmark-icon);
 }
 
 @media (prefers-color-scheme: dark) {
 
   .toolbarButton.bookmark::before {
-  content: url(images/toolbarButton-bookmark-dark.svg);
+  content: url(../images/toolbarButton-bookmark-dark.svg);
   content: var(--toolbarButton-bookmark-icon);
   }
 }
 
 .secondaryToolbarButton.bookmark::before {
-  content: url(images/toolbarButton-bookmark.svg);
+  content: url(../images/toolbarButton-bookmark.svg);
   content: var(--toolbarButton-bookmark-icon);
 }
 
 @media (prefers-color-scheme: dark) {
 
   .secondaryToolbarButton.bookmark::before {
-  content: url(images/toolbarButton-bookmark-dark.svg);
+  content: url(../images/toolbarButton-bookmark-dark.svg);
   content: var(--toolbarButton-bookmark-icon);
   }
 }
 
 #viewThumbnail.toolbarButton::before {
-  content: url(images/toolbarButton-viewThumbnail.svg);
+  content: url(../images/toolbarButton-viewThumbnail.svg);
   content: var(--toolbarButton-viewThumbnail-icon);
 }
 
 @media (prefers-color-scheme: dark) {
 
   #viewThumbnail.toolbarButton::before {
-  content: url(images/toolbarButton-viewThumbnail-dark.svg);
+  content: url(../images/toolbarButton-viewThumbnail-dark.svg);
   content: var(--toolbarButton-viewThumbnail-icon);
   }
 }
 
 #viewOutline.toolbarButton::before {
-  content: url(images/toolbarButton-viewOutline.svg);
+  content: url(../images/toolbarButton-viewOutline.svg);
   content: var(--toolbarButton-viewOutline-icon);
 }
 
 @media (prefers-color-scheme: dark) {
 
   #viewOutline.toolbarButton::before {
-  content: url(images/toolbarButton-viewOutline-dark.svg);
+  content: url(../images/toolbarButton-viewOutline-dark.svg);
   content: var(--toolbarButton-viewOutline-icon);
   }
 }
@@ -2781,40 +2781,40 @@ html[dir="rtl"] #viewOutline.toolbarButton::before {
 }
 
 #viewAttachments.toolbarButton::before {
-  content: url(images/toolbarButton-viewAttachments.svg);
+  content: url(../images/toolbarButton-viewAttachments.svg);
   content: var(--toolbarButton-viewAttachments-icon);
 }
 
 @media (prefers-color-scheme: dark) {
 
   #viewAttachments.toolbarButton::before {
-  content: url(images/toolbarButton-viewAttachments-dark.svg);
+  content: url(../images/toolbarButton-viewAttachments-dark.svg);
   content: var(--toolbarButton-viewAttachments-icon);
   }
 }
 
 #viewLayers.toolbarButton::before {
-  content: url(images/toolbarButton-viewLayers.svg);
+  content: url(../images/toolbarButton-viewLayers.svg);
   content: var(--toolbarButton-viewLayers-icon);
 }
 
 @media (prefers-color-scheme: dark) {
 
   #viewLayers.toolbarButton::before {
-  content: url(images/toolbarButton-viewLayers-dark.svg);
+  content: url(../images/toolbarButton-viewLayers-dark.svg);
   content: var(--toolbarButton-viewLayers-icon);
   }
 }
 
 #viewFind.toolbarButton::before {
-  content: url(images/toolbarButton-search.svg);
+  content: url(../images/toolbarButton-search.svg);
   content: var(--toolbarButton-search-icon);
 }
 
 @media (prefers-color-scheme: dark) {
 
   #viewFind.toolbarButton::before {
-  content: url(images/toolbarButton-search-dark.svg);
+  content: url(../images/toolbarButton-search-dark.svg);
   content: var(--toolbarButton-search-icon);
   }
 }
@@ -2866,170 +2866,170 @@ html[dir="rtl"] .secondaryToolbarButton > span {
 }
 
 .secondaryToolbarButton.firstPage::before {
-  content: url(images/secondaryToolbarButton-firstPage.svg);
+  content: url(../images/secondaryToolbarButton-firstPage.svg);
   content: var(--secondaryToolbarButton-firstPage-icon);
 }
 
 @media (prefers-color-scheme: dark) {
 
   .secondaryToolbarButton.firstPage::before {
-  content: url(images/secondaryToolbarButton-firstPage-dark.svg);
+  content: url(../images/secondaryToolbarButton-firstPage-dark.svg);
   content: var(--secondaryToolbarButton-firstPage-icon);
   }
 }
 
 .secondaryToolbarButton.lastPage::before {
-  content: url(images/secondaryToolbarButton-lastPage.svg);
+  content: url(../images/secondaryToolbarButton-lastPage.svg);
   content: var(--secondaryToolbarButton-lastPage-icon);
 }
 
 @media (prefers-color-scheme: dark) {
 
   .secondaryToolbarButton.lastPage::before {
-  content: url(images/secondaryToolbarButton-lastPage-dark.svg);
+  content: url(../images/secondaryToolbarButton-lastPage-dark.svg);
   content: var(--secondaryToolbarButton-lastPage-icon);
   }
 }
 
 .secondaryToolbarButton.rotateCcw::before {
-  content: url(images/secondaryToolbarButton-rotateCcw.svg);
+  content: url(../images/secondaryToolbarButton-rotateCcw.svg);
   content: var(--secondaryToolbarButton-rotateCcw-icon);
 }
 
 @media (prefers-color-scheme: dark) {
 
   .secondaryToolbarButton.rotateCcw::before {
-  content: url(images/secondaryToolbarButton-rotateCcw-dark.svg);
+  content: url(../images/secondaryToolbarButton-rotateCcw-dark.svg);
   content: var(--secondaryToolbarButton-rotateCcw-icon);
   }
 }
 
 .secondaryToolbarButton.rotateCw::before {
-  content: url(images/secondaryToolbarButton-rotateCw.svg);
+  content: url(../images/secondaryToolbarButton-rotateCw.svg);
   content: var(--secondaryToolbarButton-rotateCw-icon);
 }
 
 @media (prefers-color-scheme: dark) {
 
   .secondaryToolbarButton.rotateCw::before {
-  content: url(images/secondaryToolbarButton-rotateCw-dark.svg);
+  content: url(../images/secondaryToolbarButton-rotateCw-dark.svg);
   content: var(--secondaryToolbarButton-rotateCw-icon);
   }
 }
 
 .secondaryToolbarButton.selectTool::before {
-  content: url(images/secondaryToolbarButton-selectTool.svg);
+  content: url(../images/secondaryToolbarButton-selectTool.svg);
   content: var(--secondaryToolbarButton-selectTool-icon);
 }
 
 @media (prefers-color-scheme: dark) {
 
   .secondaryToolbarButton.selectTool::before {
-  content: url(images/secondaryToolbarButton-selectTool-dark.svg);
+  content: url(../images/secondaryToolbarButton-selectTool-dark.svg);
   content: var(--secondaryToolbarButton-selectTool-icon);
   }
 }
 
 .secondaryToolbarButton.handTool::before {
-  content: url(images/secondaryToolbarButton-handTool.svg);
+  content: url(../images/secondaryToolbarButton-handTool.svg);
   content: var(--secondaryToolbarButton-handTool-icon);
 }
 
 @media (prefers-color-scheme: dark) {
 
   .secondaryToolbarButton.handTool::before {
-  content: url(images/secondaryToolbarButton-handTool-dark.svg);
+  content: url(../images/secondaryToolbarButton-handTool-dark.svg);
   content: var(--secondaryToolbarButton-handTool-icon);
   }
 }
 
 .secondaryToolbarButton.scrollVertical::before {
-  content: url(images/secondaryToolbarButton-scrollVertical.svg);
+  content: url(../images/secondaryToolbarButton-scrollVertical.svg);
   content: var(--secondaryToolbarButton-scrollVertical-icon);
 }
 
 @media (prefers-color-scheme: dark) {
 
   .secondaryToolbarButton.scrollVertical::before {
-  content: url(images/secondaryToolbarButton-scrollVertical-dark.svg);
+  content: url(../images/secondaryToolbarButton-scrollVertical-dark.svg);
   content: var(--secondaryToolbarButton-scrollVertical-icon);
   }
 }
 
 .secondaryToolbarButton.scrollHorizontal::before {
-  content: url(images/secondaryToolbarButton-scrollHorizontal.svg);
+  content: url(../images/secondaryToolbarButton-scrollHorizontal.svg);
   content: var(--secondaryToolbarButton-scrollHorizontal-icon);
 }
 
 @media (prefers-color-scheme: dark) {
 
   .secondaryToolbarButton.scrollHorizontal::before {
-  content: url(images/secondaryToolbarButton-scrollHorizontal-dark.svg);
+  content: url(../images/secondaryToolbarButton-scrollHorizontal-dark.svg);
   content: var(--secondaryToolbarButton-scrollHorizontal-icon);
   }
 }
 
 .secondaryToolbarButton.scrollWrapped::before {
-  content: url(images/secondaryToolbarButton-scrollWrapped.svg);
+  content: url(../images/secondaryToolbarButton-scrollWrapped.svg);
   content: var(--secondaryToolbarButton-scrollWrapped-icon);
 }
 
 @media (prefers-color-scheme: dark) {
 
   .secondaryToolbarButton.scrollWrapped::before {
-  content: url(images/secondaryToolbarButton-scrollWrapped-dark.svg);
+  content: url(../images/secondaryToolbarButton-scrollWrapped-dark.svg);
   content: var(--secondaryToolbarButton-scrollWrapped-icon);
   }
 }
 
 .secondaryToolbarButton.spreadNone::before {
-  content: url(images/secondaryToolbarButton-spreadNone.svg);
+  content: url(../images/secondaryToolbarButton-spreadNone.svg);
   content: var(--secondaryToolbarButton-spreadNone-icon);
 }
 
 @media (prefers-color-scheme: dark) {
 
   .secondaryToolbarButton.spreadNone::before {
-  content: url(images/secondaryToolbarButton-spreadNone-dark.svg);
+  content: url(../images/secondaryToolbarButton-spreadNone-dark.svg);
   content: var(--secondaryToolbarButton-spreadNone-icon);
   }
 }
 
 .secondaryToolbarButton.spreadOdd::before {
-  content: url(images/secondaryToolbarButton-spreadOdd.svg);
+  content: url(../images/secondaryToolbarButton-spreadOdd.svg);
   content: var(--secondaryToolbarButton-spreadOdd-icon);
 }
 
 @media (prefers-color-scheme: dark) {
 
   .secondaryToolbarButton.spreadOdd::before {
-  content: url(images/secondaryToolbarButton-spreadOdd-dark.svg);
+  content: url(../images/secondaryToolbarButton-spreadOdd-dark.svg);
   content: var(--secondaryToolbarButton-spreadOdd-icon);
   }
 }
 
 .secondaryToolbarButton.spreadEven::before {
-  content: url(images/secondaryToolbarButton-spreadEven.svg);
+  content: url(../images/secondaryToolbarButton-spreadEven.svg);
   content: var(--secondaryToolbarButton-spreadEven-icon);
 }
 
 @media (prefers-color-scheme: dark) {
 
   .secondaryToolbarButton.spreadEven::before {
-  content: url(images/secondaryToolbarButton-spreadEven-dark.svg);
+  content: url(../images/secondaryToolbarButton-spreadEven-dark.svg);
   content: var(--secondaryToolbarButton-spreadEven-icon);
   }
 }
 
 .secondaryToolbarButton.documentProperties::before {
-  content: url(images/secondaryToolbarButton-documentProperties.svg);
+  content: url(../images/secondaryToolbarButton-documentProperties.svg);
   content: var(--secondaryToolbarButton-documentProperties-icon);
 }
 
 @media (prefers-color-scheme: dark) {
 
   .secondaryToolbarButton.documentProperties::before {
-  content: url(images/secondaryToolbarButton-documentProperties-dark.svg);
+  content: url(../images/secondaryToolbarButton-documentProperties-dark.svg);
   content: var(--secondaryToolbarButton-documentProperties-icon);
   }
 }
@@ -3139,7 +3139,7 @@ html[dir="rtl"] .toolbarField[type="checkbox"] {
 }
 
 .toolbarField.pageNumber.visiblePageIsLoading {
-  background-image: url(images/loading.svg);
+  background-image: url(../images/loading.svg);
   background-image: var(--loading-icon);
   background-repeat: no-repeat;
   background-position: 3px;
@@ -3148,7 +3148,7 @@ html[dir="rtl"] .toolbarField[type="checkbox"] {
 @media (prefers-color-scheme: dark) {
 
   .toolbarField.pageNumber.visiblePageIsLoading {
-  background-image: url(images/loading-dark.svg);
+  background-image: url(../images/loading-dark.svg);
   background-image: var(--loading-icon);
   }
 }
@@ -3380,7 +3380,7 @@ html[dir="rtl"] #layersView .treesItem > a > label {
   color: rgba(255, 255, 255, 0.5);
 }
 .treeItemToggler::before {
-  content: url(images/treeitem-expanded.svg);
+  content: url(../images/treeitem-expanded.svg);
   content: var(--treeitem-expanded-icon);
   display: inline-block;
   position: absolute;
@@ -3389,19 +3389,19 @@ html[dir="rtl"] #layersView .treesItem > a > label {
 @media (prefers-color-scheme: dark) {
 
   .treeItemToggler::before {
-  content: url(images/treeitem-expanded-dark.svg);
+  content: url(../images/treeitem-expanded-dark.svg);
   content: var(--treeitem-expanded-icon);
   }
 }
 .treeItemToggler.treeItemsHidden::before {
-  content: url(images/treeitem-collapsed.svg);
+  content: url(../images/treeitem-collapsed.svg);
   content: var(--treeitem-collapsed-icon);
   max-width: 16px;
 }
 @media (prefers-color-scheme: dark) {
 
   .treeItemToggler.treeItemsHidden::before {
-  content: url(images/treeitem-collapsed-dark.svg);
+  content: url(../images/treeitem-collapsed-dark.svg);
   content: var(--treeitem-collapsed-icon);
   }
 }
@@ -3859,7 +3859,7 @@ html[dir="rtl"] #documentPropertiesOverlay .row > * {
 }
 
 .grab-to-pan-grab {
-  cursor: url("images/grab.cur"), move !important;
+  cursor: url("../images/grab.cur"), move !important;
   cursor: -webkit-grab !important;
   cursor: grab !important;
 }
@@ -3869,7 +3869,7 @@ html[dir="rtl"] #documentPropertiesOverlay .row > * {
 }
 .grab-to-pan-grab:active,
 .grab-to-pan-grabbing {
-  cursor: url("images/grabbing.cur"), move !important;
+  cursor: url("../images/grabbing.cur"), move !important;
   cursor: -webkit-grabbing !important;
   cursor: grabbing !important;
   position: fixed;
