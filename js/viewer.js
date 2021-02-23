@@ -804,7 +804,7 @@ const PDFViewerApplication = {
       return;
     }
 
-    document.title = title;
+    document.title = "Brindigrafica :: Catálogo " + title;
   },
 
   async close() {
