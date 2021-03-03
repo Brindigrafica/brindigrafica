@@ -181,3 +181,5 @@ Config/secrets
 **/xcshareddata/WorkspaceSettings.xcsettings
 
 # End of https://www.toptal.com/developers/gitignore/api/vapor,swift,swiftpm,swiftpackagemanager,macos,xcode,visualstudiocode,linux
+
+cors.json
